@@ -46,10 +46,9 @@ contract MyToken {
 
 ```
 To compile the code, navigate to the Solidity Compiler tab found in the sidebar on the left. Ensure that you've selected the appropriate Compiler version, such as **0.8.18** or any other compatible version. 
-Afterwards, initiate the compilation process by clicking on the compile button. After successfully compiling the code, proceed to deploy the contract by accessing the Deploy & Run Transactions tab, 
-also located in the left-hand sidebar. From the dropdown menu, choose your contract, and then initiate the deployment by clicking the Deploy button. 
-Once the contract deployment is complete, you can begin interacting with it. To do so, navigate to your contract in the left-hand sidebar, 
-you will find options to interact with the burn and mint functions. Simply click the function you wish to execute, provide the parameters, and call the state variables (totalSupply and balances) to see the changes."
+Afterwards, initiate the compilation process by clicking on the compile button. After successfully compiling the code, proceed to deploy the contract by accessing the Deploy & Run Transactions tab, also located in the left-hand sidebar. From the dropdown menu, choose your contract, and then initiate the deployment by clicking the Deploy button. 
+
+Once the contract deployment is complete, you can begin interacting with it. To do so, navigate to your contract in the left-hand sidebar, you will find options to interact with the burn and mint functions. Simply click the function you wish to execute, provide the parameters, and call the state variables (totalSupply and balances) to see the changes."
 
 
 ## Author
