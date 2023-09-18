@@ -5,4 +5,4 @@ Welcome to my GitHub repository where I store code submissions for various block
 ## Courses
 
 ### ETH PROOF: Beginner EVM Course
-- Create a Token Project: [Project 1](metacrafters-submissions/eth-proof-beginner-evm-course/)
+- Create a Token Project: [Source Code](./eth-proof-beginner-evm-course/)
