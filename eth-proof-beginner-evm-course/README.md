@@ -12,7 +12,7 @@ This project is a simple example of creating a custom token on the Solana blockc
 
 To execute this application, you can use Remix, an online Solidity IDE. To get started, navigate to the [Remix Website](https://remix.ethereum.org/).
 
-Once you are on the Remix website, initiate the process by creatj g a new file. This can be done by selecting the "+" symbol found in the left-hand side panel. 
+Once you are on the Remix website, initiate the process by creating a new file. This can be done by selecting the "+" symbol found in the left-hand side panel. 
 Name the newly created file and save it with a .sol extension. Next, proceed by copying and pasting the provided code:
 
 ```
