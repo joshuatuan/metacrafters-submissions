@@ -37,7 +37,7 @@ You can run this project using an online JavaScript compiler like [PlayCode](htt
 node nft-collection.js
 ```
 
-##Source Code
+## Source Code
 
 ```
 // create a variable to hold your NFT's
