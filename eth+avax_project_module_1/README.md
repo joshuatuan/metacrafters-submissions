@@ -1,23 +1,21 @@
 
 # Project Title
 Functions and Errors Project
-  
+<br>
 
 ## Description
 This project in the end of the module 1 ETH + Avax focuses on writing a smart contract that implements the require(), assert() and revert() statements.
 
 ## Getting Started
 
-### Gitpod Workspace
+### Setting up with Gitpod Workspace
 
 This is the convinient way of running this program since the workspace has already been set up by Metacrafters and you just need to install truffle.
 To get started, navigate to the [Gitpod Workspace](https://gitpod.io/new/#https://github.com/jeffryan-POL/solidity_starter)
 
+### Setting up locally
 
-
-### Executing the program locally
-
-To execute the program locally you need to install the prequisites first
+To setup locally you need to install the prequisites first
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
 
