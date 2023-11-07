@@ -13,6 +13,7 @@ This is the convinient way of running this program since the workspace has alrea
 To get started, navigate to the [Gitpod Workspace](https://gitpod.io/new/#https://github.com/jeffryan-POL/solidity_starter)
 
 
+
 ### Executing the program locally
 
 To execute the program locally you need to install the prequisites first
@@ -30,16 +31,14 @@ To execute the program locally you need to install the prequisites first
 
 ## Executing the program
 
-## Initialization
-
 ### 1. Initialize Truffle in your project folder
 
    ```bash
    truffle init
    ```
    *Optional:* This step is not necessary if you're using the Gitpod Workspace, as it has already been initialized.
-   
-   
+  
+     
 After initialization, you will find two folders called `contracts` and `migrations`. Contracts go in the `contracts` folder while contract deployment settings go in `migrations`.
 
 ### 2. The solidity contract
@@ -78,7 +77,7 @@ Copy the source code and paste it in your solidity file.
 	}
    ```
 
-###3. Preparing the migration
+### 3. Preparing the migration
 
 "2_deploy_migration.js" in `migrations` contains the following code:
 
@@ -89,7 +88,7 @@ Copy the source code and paste it in your solidity file.
    }
    ```
 
-###4. Start Truffle console in development mode
+### 4. Start Truffle console in development mode
 
    ```bash
    truffle develop
@@ -103,9 +102,10 @@ Copy the source code and paste it in your solidity file.
    ```
    If you want to remigrate existing contracts, run `migrate --reset` instead of simply `migrate`.
 
-###5. Testing the contract
+  
+### 5. Testing the contract
 
-   In the interactive Truffle console, run the following commands:
+   In the interactive Truffle console, run the following commands to test out the functions and call out variables:
 
    ```javascript
    let instance = await HelloWorld.deployed()
