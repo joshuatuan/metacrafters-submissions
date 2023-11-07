@@ -1,6 +1,7 @@
 
 # Project Title
 Functions and Errors Project
+  
 
 ## Description
 This project in the end of the module 1 ETH + Avax focuses on writing a smart contract that implements the require(), assert() and revert() statements.
