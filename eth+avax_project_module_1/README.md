@@ -121,4 +121,13 @@ Copy the source code and paste it in your solidity file.
    ```javascript
    instance.assertTest()
    ```
+
+
+## Author
+
+Joshua Miguel Tuan
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details
       
