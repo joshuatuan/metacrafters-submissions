@@ -20,7 +20,6 @@ Name the newly created file and save it with a .sol extension. Next, proceed by 
 
 pragma solidity ^0.8.18;
 
-
 contract HelloWorld {
     string public greet = "Hello World!";
     address public owner; 
@@ -35,14 +34,21 @@ contract HelloWorld {
         greet = greeting;
     }
 
-    function revertTest(uint256 x) public pure{
-        if (x <= 10) {
-            revert("Revert: Input must be greater than 10");
-        }
+    function isOwner() public view returns (bool _isOwner){
+        if (msg.sender != owner)
+            _isOwner = false;
+            revert("Only the owner can access this function");
     }
-    
-    function assertTest() public pure{
-        assert(1 == 2); // always triggers an assert and revert the transaction.
+
+    function mathOperation(uint256 a, uint256 b) external pure returns (uint256 result) {
+        // Ensure that a + b is always greater than 100
+        assert((a + b) > 100);
+
+        // Perform the calculation
+        result = (a + b);
+
+        // The function will only reach this point if the assert condition is satisfied
+        return result;
     }
 }
 ```
