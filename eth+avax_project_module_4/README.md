@@ -20,7 +20,7 @@ Follow these steps to set up and deploy the contract.
     ```
     This installs all the project dependencies.
 
-4. Copy and paste the provided Solidity code `DegenToken.sol` into the contract file in the contracts folder.
+4. Copy and paste the provided Solidity code in this directory `DegenToken.sol` into the contract file in the contracts folder.
 
 ## Deploying the Contract
 To deploy the contract, you need a Snowtrace API key, a Metamask private key, and testnet AVAX for deployment.
