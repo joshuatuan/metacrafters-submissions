@@ -58,7 +58,7 @@ Visit the [AVAX Faucet](https://core.app/tools/testnet-faucet/?subnet=c&token=c)
 4. Check your contract on [Snowtrace](https://testnet.snowtrace.io/).
 
 ## Testing the Contract
-To test the contract, leverage [Remix](https://remix.ethereum.org/):
+To test the contract, use [Remix IDE](https://remix.ethereum.org/):
 
 1. Copy the Solidity code into a new file.
 2. Select the appropriate compiler version, preferably **0.8.20** or above.
