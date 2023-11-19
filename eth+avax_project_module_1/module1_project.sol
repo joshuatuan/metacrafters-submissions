@@ -10,26 +10,30 @@ contract HelloWorld {
         owner = msg.sender;
     }
 
-    function setGreeting(string memory greeting) public {
+    function setGreeting(string memory _greeting) public {
         require(msg.sender == owner, "Only the owner can access this function");
-        require(bytes(greeting).length > 0, "Greeting should not be empty");
-        greet = greeting;
+        require(bytes(_greeting).length > 0, "Greeting should not be empty");
+        greet = _greeting;
     }
 
     function isOwner() public view returns (bool _isOwner){
-        if (msg.sender != owner)
-            _isOwner = false;
+        if (msg.sender != owner){
+             _isOwner = false;
             revert("Only the owner can access this function");
+        }
+        else{
+            _isOwner = true;
+        }
+        return _isOwner;
     }
 
     function mathOperation(uint256 a, uint256 b) external pure returns (uint256 result) {
         // Ensure that a + b is always greater than 100
         assert((a + b) > 100);
 
-        // Perform the calculation
-        result = (a + b);
-
+        
         // The function will only reach this point if the assert condition is satisfied
+        result = a + b;
         return result;
     }
 }
