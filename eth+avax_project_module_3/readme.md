@@ -12,8 +12,8 @@ To execute this application, you can use Remix, an online Solidity IDE. To get s
 Once you are on the Remix website, initiate the process by creating a new file. This can be done by selecting the "+" symbol found in the left-hand side panel. 
 Name the newly created file and save it with a .sol extension. Next, proceed by copying and pasting the provided code:
 
-*solidity
-```
+
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
