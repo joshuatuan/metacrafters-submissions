@@ -27,15 +27,19 @@ contract JTC is ERC20 {
        owner = msg.sender;
    }
 
-
-
    function mint(address to, uint256 amount) public {
        require(msg.sender == owner, "Only the contract owner can mint tokens");
        _mint(to, amount);
    }
 
    function burn(uint256 amount) public {
+       require(balanceOf(msg.sender) >= amount, "Insufficient balance for burning");
        _burn(msg.sender, amount);
+   }
+   
+   function transferJit(address to, uint256 amount) public {
+        require(balanceOf(msg.sender) >= amount, "Insufficient balance for transfer");
+        transfer(to, amount);
    }
 }
 ```
